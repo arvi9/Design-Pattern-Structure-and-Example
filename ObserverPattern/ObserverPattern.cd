@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ObserverPattern.ObserverAbstract">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ObserverAbstract.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ObserverPattern.ObserverConcrete">
+    <Position X="3" Y="3.25" Width="1.5" />
+    <InheritanceLine Type="ObserverPattern.ObserverAbstract" FixedToPoint="true">
+      <Path>
+        <Point X="3.75" Y="1.603" />
+        <Point X="3.75" Y="3.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ObserverConcrete.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ObserverPattern.Program">
+    <Position X="4.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ObserverPattern.SubjectAbstract">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAAAAAAAAACABAAAAAAAAAAAA=</HashCode>
+      <FileName>SubjectAbstract.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ObserverPattern.SubjectConcrete">
+    <Position X="0.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAQAAAAAAAAAAACAAAACABAAAAAAAQAAAA=</HashCode>
+      <FileName>SubjectConcrete.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

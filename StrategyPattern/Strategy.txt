@@ -1,0 +1,23 @@
+﻿Whay is Strategy?
+A strategy is a plan of action designed to achieve a specific goal.
+
+What is Strategy Pattern?
+Define a family of algorithms, encapsulate each one and make them interchangable. Strategy lets the algorithm vary independently from clients that use it.
+-------------------------------------------------------------------
+Example:
+
+Problem for Shopping Mall
+----------------
+1. Accept customer details
+2. Calculate bill amount
+3. Apply discount based on day of week
+	1. Monday - Low discount - 10%
+	2. Thursday - High Discount - 50%
+
+Note:
+-----------------
+Shopping Mall encapsulate three thing
+1. Customer Details
+2. Calculate Bill after applying discount
+3. Get Final Bill
+
